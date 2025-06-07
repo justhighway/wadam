@@ -1,7 +1,7 @@
 import ky from 'ky';
 
 const apiClient = ky.create({
-  prefixUrl: 'http://localhost:3000/api',
+  prefixUrl: 'https://winereview-api.vercel.app/15-7/',
   throwHttpErrors: false,
   headers: {
     'Content-Type': 'application/json',
