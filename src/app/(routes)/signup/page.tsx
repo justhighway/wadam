@@ -1,4 +1,10 @@
+import SignUpForm from '@/feature/auth/components/SignUpForm';
+
 const SignUpPage = () => {
-  return <div>SignUpPage</div>;
+  return (
+    <div>
+      <SignUpForm />
+    </div>
+  );
 };
 export default SignUpPage;
